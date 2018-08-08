@@ -33,9 +33,9 @@ PAPW 2
 
 :camera: | :computer:
 ---|---
-1. Encuadras objetos deseados. | 1.  Preparas archivos (stage)
-2. Tomas foto. | 2. Commit
-3. Guardas en un álbum. | 3. Repositorio
+1.Encuadras objetos deseados. | 1.Preparas archivos (stage)
+2.Tomas foto. | 2.Commit
+3.Guardas en un álbum. | 3.Repositorio
 
 ![](img/line.svg)
 
