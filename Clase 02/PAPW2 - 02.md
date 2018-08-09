@@ -14,6 +14,17 @@ PAPW 2
 
 ---
 
+## Observaciones tarea
+
+* Alternativas:
+    * Git Kraken
+    * Git Desktop
+* Repositorio: carpeta que tiene `.git` (álbum)
+* ¡Cuidado con el plagio! Traducir un texto íntegro y ponerlo como propio también es plagio.
+* verSiones, utilicÉ, usÉ, línea, más (cantidad)
+
+---
+
 ## Servidores de Git
 
 GitHub | Bitbucket
@@ -37,6 +48,8 @@ git merge <rama>
 ---
 
 ## Ver cambios y [revertirlos](https://githowto.com/undoing_local_changes)
+
+* Dedicatoria: 4074
 
 ```git
 rem Ver cambios
