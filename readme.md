@@ -30,7 +30,7 @@ Repositorio para la clase de PAPW2 impartida durante el semestre de agosto-dicie
 ### Tareas entregadas
 
 Matrícula | T1 | T2
---- | --- |
+--- | --- | ---
 3332 |  | 
 7634 | 2 | 
 6527 |  | 
