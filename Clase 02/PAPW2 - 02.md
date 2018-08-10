@@ -41,6 +41,9 @@ git branch
 rem Crea una rama
 git checkout -b <rama>
 
+rem Cambia a una rama
+git checkout <rama>
+
 rem Une la rama en la actual
 git merge <rama>
 ```
@@ -67,7 +70,7 @@ git checkout <archivo>
 ## Repositorios remotos
 
 ```git
-rem Añade la url como remoto
+rem Añade la url como remoto a un repositorio local
 git remote add <nombre> <url>
 
 rem Envía actualizaciones a un remoto
@@ -78,7 +81,40 @@ git fetch <remoto> <rama>
 
 rem Descarga cambios de remoto
 git pull <remote>
+
+rem Clona un repositorio remoto en una carpeta vacía local
+git clone <url>
 ```
+
+---
+
+## Mostrar y eliminar repositorios remotos
+
+```git
+rem Muestra repositorios remotos vinculados
+git remote -v
+
+rem Desvincula un repositorio remoto
+rem https://help.github.com/articles/removing-a-remote/
+git remote rm <nombre>
+```
+---
+
+## Añadir credenciales de acceso
+
+```git
+rem Añadir usuario y contraseña a repositorio remoto
+git remote set-url <nombre> ^
+https://<usuario>:<contraseña>@github.org/<repositorio>.git
+
+rem Segunda opción
+git config credential.helper store
+git push http://example.com/repo.git
+rem git pedirá tu nombre de usuario y contraseña, 
+rem que automáticamente se guardarán
+```
+* El símbolo `^` en Consola indica que se seguirá la instrucción en la siguiente línea [*](https://stackoverflow.com/questions/605686/windows-how-to-specify-multiline-command-on-command-prompt).
+* Referencias [**](https://stackoverflow.com/questions/6565357/git-push-requires-username-and-password), [***](https://git-scm.com/docs/git-credential-store)
 
 ---
 
@@ -99,6 +135,9 @@ git pull <remote>
 * Crear un repositorio con un archivo de texto y hacer un commit.
 * Agregar un archivo (`txt`, `md`, `pdf`, `html`) que explique cómo crear un repositorio con una rama adicional en Git o Sourcetree. Hacer un commit.
 * Subir el repositorio a GitHub o Bitbucket.
+* Enviar la dirección del repositorio a jose.benavidesvz@uanl.edu.mx con el asunto:
+
+<center><i>PAPW2 Tarea 2</i></center>
 
 ---
 
